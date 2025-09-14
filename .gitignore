@@ -1,4 +1,5 @@
 .idea/
 *.iml
-
+.php-cs-fixer.cache
 vendor/
+.phpunit.cache/
