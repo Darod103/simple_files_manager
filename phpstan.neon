@@ -1,0 +1,14 @@
+parameters:
+    level: 5
+    paths:
+        - src/
+        - public/
+    bootstrapFiles:
+        - config/config.php
+    excludePaths:
+        - %rootDir%/src/Model/FileModel.php # Исключаем FileModel.php
+        - %rootDir%/src/Service/FileStreamService.php # Исключаем FileStreamService.php
+        - %rootDir%/public/index.php # Исключаем index.php
+
+includes:
+    - vendor/phpstan/phpstan-phpunit/extension.neon
