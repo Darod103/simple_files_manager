@@ -1,0 +1,16 @@
+{
+    "name": "vovafedorei/simple_file_manager",
+    "description": "Simple files manager",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vladimir Fedorei",
+            "email": "vovafed103@gmail.com"
+        }
+    ],
+    "require": {}
+}
